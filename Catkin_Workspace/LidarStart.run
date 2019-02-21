@@ -1,0 +1,6 @@
+cd ~/catkin_ws/src/rplidar_ros-master
+KERNEL=="ttyUSB*", MODE="0666"
+ls -l /dev |grep ttyUSB
+sudo chmod 666 /dev/ttyUSB0
+. ~/catkin_ws/devel/setup.bash
+roslaunch rplidar_ros view_rplidar_a3.launch

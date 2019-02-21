@@ -1,0 +1,2 @@
+beginner_tutorials:cpp_programs:laser_filters-indigo-devel:rplidar_ros-master
+-DCATKIN_DEVEL_PREFIX=/home/stamatis/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/stamatis/catkin_ws/install -G Unix Makefiles
